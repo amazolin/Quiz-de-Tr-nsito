@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tela2">
+    tools:context=".Tela3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#6C73A4"
-                android:text="  Atenção"
+                android:text="Atenção"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -67,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#528E67"
-                android:text="  Cuidado"
+                android:text="Cuidado"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#538DBC"
-                android:text="  Preferência"
+                android:text="Preferência"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -85,12 +85,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#A68350"
-                android:text="  Pista escorregadia"
+                android:text="Pista escorregadia"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/txtResultado"
                 android:layout_width="match_parent"
                 android:layout_height="34dp" />
 

@@ -58,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#6C73A4"
-                android:text="  Animais na pista"
+                android:text="Animais na pista"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -67,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#528E67"
-                android:text="  Animais selvagens"
+                android:text="Animais selvagens"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#538DBC"
-                android:text="  Cuidado, animais!"
+                android:text="Cuidado, animais!"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -85,12 +85,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#A68350"
-                android:text="  Atenção, animais!"
+                android:text="Atenção, animais!"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/txtResultado"
                 android:layout_width="match_parent"
                 android:layout_height="34dp" />
 

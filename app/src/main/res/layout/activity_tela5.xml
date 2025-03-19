@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D98F8F"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logorosa" />
+
+        <EditText
+            android:id="@+id/edtBemVindo"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center|center_vertical"
+            android:hint="Nome"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Qual a opção correta?"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/obras" />
+
+        <RadioGroup
+            android:id="@+id/rGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioB1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6C73A4"
+                android:text="Areia na pista"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioB2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#528E67"
+                android:text="Construção"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioB3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#538DBC"
+                android:text="Trabalhadores"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioB4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A68350"
+                android:text="Obras"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtResultado"
+                android:layout_width="match_parent"
+                android:layout_height="34dp" />
+
+            <Button
+                android:id="@+id/btnEncerrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:backgroundTint="#ffc6c3"
+                android:fontFamily="monospace"
+                android:text="Enviar"
+                android:textColor="#665F5F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

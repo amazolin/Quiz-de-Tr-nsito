@@ -40,7 +40,7 @@ public class Tela1 extends AppCompatActivity {
         radioB2 = findViewById(R.id.radioB2);
         radioB3 = findViewById(R.id.radioB3);
         radioB4 = findViewById(R.id.radioB4);
-        btnPrimeira = findViewById(R.id.btnPrimeira);
+        btnPrimeira = findViewById(R.id.btnEncerrar);
 
         exibirNome();
 

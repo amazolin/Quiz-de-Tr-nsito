@@ -40,7 +40,7 @@ public class Tela4 extends AppCompatActivity {
         radioB2 = findViewById(R.id.radioB2);
         radioB3 = findViewById(R.id.radioB3);
         radioB4 = findViewById(R.id.radioB4);
-        btnPrimeira = findViewById(R.id.btnPrimeira);
+        btnPrimeira = findViewById(R.id.btnEncerrar);
 
         exibirNome();
 
@@ -91,7 +91,7 @@ public class Tela4 extends AppCompatActivity {
 
     // Método para abrir a próxima tela
     private void abrirTela2(int acertos) {
-        Intent intent = new Intent(Tela4.this, TelaResultado.class);
+        Intent intent = new Intent(Tela4.this, Tela5.class);
         String nome = getIntent().getStringExtra("nome_usuario");
         intent.putExtra("nome_usuario", nome);
         intent.putExtra("acertos", acertos); // Passando os acertos para a próxima tela

@@ -74,7 +74,7 @@ public class Tela1 extends AppCompatActivity {
 
     // Método para abrir a próxima tela
     private void abrirProximaTela() {
-        Intent intent = new Intent(Tela1.this, Tela2.class); // Substitua pela próxima Activity
+        Intent intent = new Intent(Tela1.this, Tela3.class); // Substitua pela próxima Activity
         startActivity(intent);
         finish(); // Fecha a tela atual para não permitir voltar
     }
